@@ -1,0 +1,811 @@
+#dynamic-content-container {
+height:auto;
+left:50%;
+margin:-1089px 0 0 -194px;
+min-height:1200px;
+position:relative;
+top:20px;
+width:648px;
+z-index:0;
+}
+
+#dynamic-content-bg-top {
+background-image:url("images/index-graphic-top.png");
+background-repeat:no-repeat;
+height:20px;
+left:0;
+margin:0;
+position:relative;
+top:0;
+width:648px;
+z-index:0;
+}
+
+#dynamic-content-bg-main {
+background-image:url("images/index-graphic-content.png");
+background-repeat:repeat-y;
+left:0;
+margin-top:-11px;
+position:relative;
+top:0;
+width:648px;
+z-index:0;
+}
+
+#dynamic-content-bg-bottom {
+background-image:url("images/index-graphic-bottom.png");
+background-repeat:no-repeat;
+height:20px;
+left:0;
+margin:0;
+position:relative;
+top:0;
+width:648px;
+z-index:0;
+clear: both;
+}
+
+#important-info {
+margin-left: 215px; 
+margin-right: 5px;
+margin-bottom: 15px;
+width:370px;
+height: 130px; 
+background-color: #ebebeb;
+}
+
+#col-1 {
+position: absolute;
+left: 5px;
+width: 210px;
+z-index:+100;
+}
+
+#col-2 {
+position: absolute;
+top: 110px;
+left: 215px;
+width: 210px;
+z-index:100;
+margin-top:35px;
+}
+
+#col-3 {
+position: absolute;
+top: 110px;
+left: 425px;
+width: 210px;
+z-index:100;
+margin-top: 35px;
+}
+
+#menu-left {
+	position: absolute;
+	margin:0;
+	left: 18px;
+	padding: 0px;
+	background-color: #0A2046;
+	width: 165px;
+	clear: both;
+}
+#menu-left-title {
+	margin:0;
+	padding:0;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-left: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FAD928;
+	text-shadow: 1px 1px 4px #000000;
+}
+#menu-left .secondary-menu {
+	margin:0px;
+	top: 0px;
+	padding: 0px;
+}
+#menu-left .secondary-menu ul {
+	margin:0;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom: 3px;
+	padding:0;
+}
+#menu-left .secondary-menu li {
+	margin:0px;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-size:12px;
+	list-style-type: none; 
+	text-align: justified;
+}
+#menu-left .secondary-menu li ul li {
+	background-image: url(http://sa.utep.edu/housing/files/2010/12/axe12.png);
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;
+	margin-left: -3px;
+	padding-left: 17px;
+	padding-top: 5px;
+	background-position: 0 .6em;
+}
+#menu-left .secondary-menu li.menu-item a {
+	color: #FFFFFD; 
+	font-weight:normal;
+}
+#menu-left .secondary-menu li.current-menu-ancestor a {
+	color: #FAD928;
+	font-weight:normal;
+}
+#menu-left .secondary-menu li.current-menu-ancestor ul li.menu-item a {
+	color: #FFFFFD;
+	font-weight:normal;
+}
+#menu-left .secondary-menu li.current-menu-item a {
+	color: #FAD928;
+	font-weight:bold;
+}
+#menu-left .secondary-menu li.current-menu-item ul li.menu-item a {
+	color: #FAD928;
+	font-weight:normal;
+}
+#menu-left .secondary-menu li.current-menu-ancestor ul.sub-menu li.current-menu-item a {
+	color: #FAD928;
+	font-weight:bold;
+}
+
+#menu-frontPage {
+	position: relative;
+	margin-top: 10px;
+	left: 18px;
+	padding: 0px;
+	width: 165px;
+	clear: both;
+	font-family:Arial,Helvetica,sans-serif;
+}
+#menu-frontPage-title {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color:#0A2B5D; 
+	font-size:16px;
+	margin: 0px;
+	height: 30px;
+	position: relative;
+	z-index: 0;
+	left: 0px;
+	top: 6px;
+	margin-bottom: 20px;
+}
+#menu-frontPage .secondary-menu {
+	margin:0px;
+	top: 0px;
+	padding: 0px;
+}
+
+#menu-frontPage .secondary-menu ul {
+	margin:0;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom: 3px;
+	padding:0;
+}
+
+#menu-frontPage .secondary-menu li {
+	background-image: url(http://sa.utep.edu/housing/files/2011/03/arrow.png);
+	background-repeat: no-repeat;
+
+	font-size: 15px;
+	font-weight: bold;
+	list-style-type: none; 
+	text-align: justified;
+	margin:0;
+	padding:0;
+	margin-left: -3px;
+	padding-left: 14px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	background-position: 0 .5em;
+}
+
+#menu-frontPage .secondary-menu li ul li {
+	background-image: url(http://sa.utep.edu/housing/files/2010/12/axe12.png);
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;
+	margin-left: -3px;
+	padding-left: 18px;
+	padding-top: 5px;
+	font-weight: normal;
+	background-position: 0 .6em;
+}
+
+ul.axe-small {
+	margin: 5px;
+	padding: 0px;
+}
+li.axe-small {
+	background-image: url(http://sa.utep.edu/housing/files/2010/12/axe12.png);
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;
+	padding-left: 25px;
+	padding-top: 5px;
+	list-style-type:none;
+	background-position: 0 .5em;
+}
+li.axe {
+	background-image: url(http://sa.utep.edu/housing/files/2010/12/axe.png);
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;
+	padding-left: 30px;
+	padding-top: 5px;
+	list-style-type:none;
+	background-position: 0 .5em;
+}
+#content {
+	margin-left: 215px;
+	padding-bottom: 10px;
+	min-height: 300px;
+}
+.button {
+	background: url("http://sa.utep.edu/housing/files/2010/11/button.png") no-repeat top left;
+	color: #fff;
+	font-size:11px;
+	border: 0px solid #006;
+}
+.button:hover {
+	background: url("http://sa.utep.edu/housing/files/2010/11/button-clicked.png") no-repeat;
+	border: 0px solid #00D;
+}
+.news-item-date {
+	text-align: right;
+	font-size: 10px;
+}
+#recent-news {
+	top:0px;
+	left:10px; 
+	padding: 10px;
+	margin: 0px;
+	padding-top:0px;
+	margin-top:0px; 
+	color: #FF5A07; 
+	width:190px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#news-item {
+	list-style-type:none; 
+	font-size: 13px;
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+	padding-left: 5px;
+}
+#housing-holdings {
+	margin: 0px;
+	width: 640px;
+	height: 600px;
+	position: relative;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+	background-color: #fff;
+	
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 15px;
+	/*background-image: url(http://sa.utep.edu/housing/files/2010/11/housing-finale11.png);
+	background-repeat: no-repeat;
+	*/
+}
+#housing-information {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0px;
+	height: 180px;
+	width: 500px;
+	position: relative;
+	z-index: 0;
+	top: 10px;
+	left: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+	color: #9ACC2E;
+	font-size: 43px;
+	font-weight: bold;
+	text-shadow: 1px 1px 4px #000000;
+}
+#housing-top {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0px;
+	height: 110px;
+	width: 640px;
+	position: relative;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+}
+#documents-holder {
+	font-family: Helvetica, Arial, sans-serif;
+	height: 230px;
+	width: 500px;
+	position: relative;
+	z-index: 0;
+	left: 210px;
+	top: 180px;
+	padding-left: 27px;
+	padding-top: 5px;
+}
+#housing-welcome {
+	font-size: 12px;
+	color: #FFF;
+	margin: 0px;
+	height: 127px;
+	width: 473px;
+	position: absolute;
+	z-index: 0;
+	left: 21px;
+	top: 70px;
+	text-shadow: 0px 0px 0px #000000;
+	font-weight: normal;
+}
+#documents-title {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 27px;
+	font-weight: bold;
+	color: #69C;
+	position: absolute;
+	z-index: 0;
+	height: 30px;
+	width: 267px;
+	left: 27px;
+	top: 6px;
+	text-shadow: 1px 1px 4px #000000;
+}
+#documents-subtitle {
+	font-size: 16px;
+	font-weight: bold;
+	color: #0A2B5D;
+	position: absolute;
+	z-index: 0;
+	height: 23px;
+	width: 277px;
+	left: 27px;
+	top: 37px;
+	text-shadow: 1px 1px 4px #000000;
+}
+#future-information {
+	margin: 0px;
+	height: 155px;
+	width: 482px;
+	position: absolute;
+	z-index: 10;
+	left: 23px;
+	top: 51px;
+}
+ul.docs-menu {
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:482px;
+	text-indent:-9999px;
+}
+ul.docs-menu li a {
+	display:block;
+	height:52px;
+}
+ul.docs-menu li a.future-btn {
+	background-image:url(images/menu/documents-menu.png);
+	background-position: 0px 0px;
+	background-repeat:no-repeat;
+}
+ul.docs-menu li a.current-btn {
+	background-image:url(images/menu/documents-menu.png);
+	background-position: 0px -52px;
+	background-repeat:no-repeat;
+}
+ul.docs-menu li a.announcement-btn {
+	background-image:url(images/menu/documents-menu.png);
+	background-position: 0px -104px;
+	background-repeat:no-repeat;
+}
+ul.docs-menu li a.future-btn:hover {
+	background-image:url(images/menu/documents-menu.png);
+	background-position: 0px -157px;
+	background-repeat:no-repeat;
+}
+ul.docs-menu li a.current-btn:hover {
+	background-image:url(images/menu/documents-menu.png);
+	background-position: 0px -209px;
+	background-repeat:no-repeat;
+}
+ul.docs-menu li a.announcement-btn:hover {
+	background-image:url(images/menu/documents-menu.png);
+	background-position: 0px -261px;
+	background-repeat:no-repeat;
+}
+#slideshow {
+	margin: 0px;
+	padding: 0px;
+	height: 240px;
+	width: 576px;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	left: 4px;
+	top: 75px;
+	box-shadow:1px 2px 16px #000000;
+	-webkit-box-shadow:1px 2px 16px #000000;
+	-moz-box-shadow:1px 2px 16px #000000;
+}
+#news-slider {
+	margin: 0px;
+	padding: 0px;
+	top: 50px;
+	left: 190px;	
+	width: 620px;
+	height: 300px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 0;
+}
+#quick-links {
+	margin: 0px;
+	height: 102px;
+	width: 216px;
+	position: absolute;
+	left: 410px;
+	top: 290px;
+	overflow:hidden;
+	z-index: 999;
+}
+ul.links-menu {
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:219px;
+	text-indent:-9999px;
+}
+ul.links-menu li a {
+	display:block;
+	height:49px;
+	padding-bottom:4px;
+}
+ul.links-menu li a.future-btn {
+	background-image:url(images/menu/links-sprite.png);
+	background-position: 0px 0px;
+	background-repeat:no-repeat;
+}
+ul.links-menu li a.current-btn {
+	background-image:url(images/menu/links-sprite.png);
+	background-position: 0px -57px;
+	background-repeat:no-repeat;
+}
+ul.links-menu li a.future-btn:hover {
+	background-image:url(images/menu/links-sprite.png);
+	background-position: 0px -106px;
+	background-repeat:no-repeat;
+}
+ul.links-menu li a.current-btn:hover {
+	background-image:url(images/menu/links-sprite.png);
+	background-position: 0px -159px;
+	background-repeat:no-repeat;
+}
+#important-documents-holdings {
+	margin: 0px;	
+	z-index: 0;
+	left: 220px;
+	top: 0px;
+        width:395px;
+	font-size: 13px;
+}
+#imp-docs-title {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color:#0A2B5D; 
+	font-size:16px;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+
+	position: relative;
+	z-index: 0;
+	top: 6px;
+}
+#imp-docs-subtag {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 0px;
+	height: 20px;
+	width: 300px;
+	position: relative;
+	z-index: 0;
+	left: 0px;
+	top: 10px;
+	text-shadow: 1px 1px 4px #000000;
+}
+#application-doc-btn {
+	margin: 0px;
+	height: 52px;
+	width: 432px;
+	position: relative;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+}
+#app-online-btn {
+	margin: 0px;
+	height: 105px;
+	width: 404px;
+	position: relative;
+	z-index: 0;
+	left: 0px;
+	top: 35px;
+}
+/*CSS for the download box*/
+ #download-app {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #C03;
+	padding: 0px;
+	height: 100px;
+	width: 400px;
+	margin-left: -200px;
+	position: relative;
+	z-index: 0;
+	left: 50%;
+	top: 10px;
+	text-align: center;
+}
+    #download-app-btn {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #999;
+	float: left;
+	height: 200px;
+	width: 300px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: -150px;
+	position: relative;
+	z-index: 999;
+	left: 50%;
+	top: 20px;
+	text-align: center;
+}
+    #download-pdf-reader {
+	height: 39px;
+	width: 158px;
+	margin-left: -79px;
+	position: relative;
+	z-index: 0;
+	left: 50%;
+	top: 20px;
+}
+
+#download-app .check_in{
+font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #999;
+}
+
+/*Styling for the blog system*/
+/*----------------------------------------------------------------------*/
+
+#blog-holder {
+	background-image: url(images/prototype.png);
+	background-repeat: no-repeat;
+	margin:0;
+	padding:0;
+	height: auto;
+	width: 460px;
+	position: relative;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+	padding-bottom: 400px;
+}
+body {
+	background-image: url(http://sa.utep.edu/rmgmt/imgs/linen.jpg);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#blog-title-div {
+	font-family: Helvetica, Arial, sans-serif;
+	position: relative;
+	z-index: 0;
+	height: 40px;
+	width: 460px;
+	left: 0px;
+	top: -10px;
+	margin:0;
+	padding:0;
+}
+#blog-title-first {
+	font-size:16px;
+	color: #FF9935;
+	position: relative;
+	z-index: 0;
+	height: 50px;
+	width: 455px;
+	left: 0px;
+	top: 0px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#blog-tagline {
+	font-size: 16px;
+	font-weight: bold;
+	color: #0A2756;
+	margin: 0px;
+	height: 10px;
+	width: 400px;
+	position: relative;
+	z-index: 0;
+	left: 12px;
+	top: 0px;
+}
+.blog-block {
+	border-bottom:4px dashed #FFFFFF;
+	display:block;
+	font-family:Helvetica,Arial,sans-serif;
+	left:0px;
+	margin:0px 0 0;
+	min-height:auto;
+	position:relative;
+	top:-15px;
+	width:455px;
+	z-index:0;
+}
+.blog-post-title {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FF5A07;
+	margin: 0px;
+	height: auto;
+	width: 455px;
+	position: relative;
+	z-index: 0;
+	left: 0px;
+	top: 4px;
+}
+.blog-post-date {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #000;
+	position: relative;
+	margin:0;
+	padding:0;
+	z-index: 0;
+	width: 175px;
+	left: 0px;
+	top: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #6C442C;
+}
+.blog-post-body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #133369;
+	min-height: 50px;
+	width: 455px;
+	position: relative;
+	z-index: 0;
+	margin-top:15px;
+	padding:0px;
+	left: 0px;
+	top: 0px;
+}
+#bantha-fooder {
+	font-family: Helvetica, Arial, sans-serif;
+	height: 70px;
+	width: 250px;
+	position: relative;
+	z-index: 0;
+	left: 5px;
+	top: 0;
+	margin-top: 20px;
+}
+#read-more-btn {
+	font-size: 16px;
+	font-weight: bold;
+	color: #99CC41;
+	position: relative;
+	z-index: 0;
+	height: 18px;
+	width: 200px;
+	left: 0px;
+	top: 4px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#comment-count {
+	font-size: 14px;
+	color: #CC1934;
+	position: relative;
+	z-index: 0;
+	height: 20px;
+	width: auto;
+	left: 2px;
+	top: 15px;
+	font-weight: bold;
+}
+#blog-registration-div {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFF;
+	position: absolute;
+	z-index: 0;
+	height: 19px;
+	width: 120px;
+	left: 766px;
+	top: 24px;
+}
+a.readmore-btn:link {
+	color:#99CC41;
+	text-decoration:none;
+}
+a.readmore-btn:visited {
+	color:#99CC41;
+	text-decoration:none;
+}
+a.readmore-btn:hover {
+	color:#133369;
+	text-decoration:none;
+}
+div#page-title {
+	margin: 0px; 
+	margin-left:-15px; 
+	padding:0px; 
+	top: 0px; 
+	font-weight: bold; 
+	color: #fff; 
+	font-size: 14px;"
+}
+
+#apply-to-live {
+	width:395px; 
+	background-color: #F2F2F2; 
+	border: 1px solid #09326E;  
+	background-image: url('http://sa.utep.edu/housing/files/2010/11/titlebg-grey1.png'); 
+	background-repeat:repeat-x;
+}
+
+#thumbnail-static-content-page {
+	position:absolute; 
+	margin:0;
+	left: 494px; 
+	padding:0px; 
+	top: 21px; 
+	width: 181px; 
+	border: 1px solid #fff;	
+}
+
+#FAQ-right-menu {
+	color: #fff; 
+	font-size:14px;	
+}
+
+#FAQ-right-menu li {
+	padding: 5px;
+	font-weight: bold;
+	margin-left:-25px;
+}
+
+#FAQ-right-menu li ul li {
+	font-weight: normal;
+}
+
+/*End styling CSS*/

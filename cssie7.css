@@ -1,0 +1,903 @@
+/*
+Theme Name: Student Housing | The University of Texas at El Paso
+Theme URI: http://studentaffairs.utep.edu/minervillage
+Description: This is the theme that is used by the Student Housing department at the University of Texas at El Paso.
+Author: Guillermo Vargas
+Version: 1.0
+Tags:
+*/
+
+
+/* Reset default browser CSS.
+-------------------------------------------------------------- */
+img.alignright {float:right; margin:0 0 1em 1em, padding:10px;}
+img.alignleft {float:left; margin:0 1em 1em 0, padding:10px;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto, padding:10px;}
+a img.alignright {float:right; margin:0 0 1em 1em, padding:10px;}
+a img.alignleft {float:left; margin:0 1em 1em 0, padding:10px;}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto, padding:10px;}
+/*a img {border:0 none, padding:10px;}*/
+a img {
+	border:0 none;
+}
+img {border:0, padding:10px;}
+a { outline: none; }
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-style:italic;
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+}
+
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+
+a:link {
+color:#336699;
+text-decoration:none;
+}
+a:visited {
+color:#336699;
+text-decoration:none;
+}
+a:hover {
+color:#C04C25;
+text-decoration:none;
+}
+a.footerlinks:link {
+	color:#fff;
+	text-decoration:none;
+}
+a.footerlinks:visited {
+	color:#fff;
+	text-decoration:none;
+}
+a.footerlinks:hover {
+	background-color:#fff;
+	color:#333;
+	padding-bottom:2px;
+	padding-top:2px;
+	text-decoration:none;
+}
+a.titlelinks:link {
+color:#6699CC;
+text-decoration:none;
+}
+a.titlelinks:visited {
+color:#6699CC;
+text-decoration:none;
+}
+a.titlelinks:hover {
+color:#2A4055;
+text-decoration:none;
+}
+a.vision-mission-link:link {
+color:#FFFFFF;
+text-decoration:none;
+}
+a.vision-mission-link:visited {
+color:#FFFFFF;
+text-decoration:none;
+}
+a.vision-mission-link:hover {
+background-color:#FFFFFF;
+color:#333333;
+padding-bottom:2px;
+padding-top:2px;
+text-decoration:none;
+}
+a.search-btn {
+background:url("images/csssprite.png") repeat scroll 0 -355px transparent;
+cursor:default;
+display:block;
+height:34px;
+text-indent:-9999px;
+width:150px;
+}
+a.search-btn span {
+background:url("images/csssprite.png") repeat scroll 0 -355px transparent;
+cursor:default;
+display:block;
+height:40px;
+text-indent:-9999px;
+width:0;
+}
+a.search-btn:hover {
+background-position:-150px -355px;
+cursor:default;
+}
+a.search-btn:active {
+background-position:-301px -355px;
+cursor:default;
+}
+ul#studentaffairs-nav {
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-weight:normal;
+height:40px;
+width:218px;
+}
+ul#studentaffairs-nav li {
+list-style:none outside none;
+margin-left:-36px;
+}
+ul#studentaffairs-nav li a {
+background-image:url("images/csssprite.png");
+background-position:-270px -220px;
+color:#FFFFFF;
+display:block;
+height:40px;
+line-height:42px;
+padding-left:10px;
+text-align:left;
+text-decoration:none;
+width:254px;
+}
+ul#studentaffairs-nav li a:hover {
+background-image:url("images/csssprite.png");
+background-position:-270px -261px;
+color:#333333;
+}
+ul#studentaffairs-nav li a:active {
+background-image:url("images/csssprite.png");
+background-position:-270px -302px;
+}
+body {
+	background-attachment:fixed;
+	background-color:#EFEFEF;
+	background-image:url("http://sa.utep.edu/rmgmt/imgs/linen.jpg");
+	background-repeat:repeat;
+	margin:0;
+}
+#page {
+height:1000px;
+left:50%;
+margin-left:-454px;
+position:relative;
+width:908px;
+z-index:0;
+}
+#header {
+background-image:url("images/csssprite.png");
+background-position:0 0;
+background-repeat:no-repeat;
+height:148px;
+left:50%;
+margin:0 0 0 -454px;
+position:relative;
+width:908px;
+z-index:0;
+}
+#dayDiv {
+color:#333333;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:10px;
+font-weight:normal;
+height:10px;
+left:810px;
+margin:0;
+position:absolute;
+text-align:center;
+top:60px;
+width:90px;
+z-index:0;
+}
+#ur {
+color:#333333;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:12px;
+font-weight:normal;
+height:12px;
+left:809px;
+margin:0;
+position:absolute;
+text-align:center;
+top:81px;
+width:90px;
+z-index:0;
+}
+#m1 {
+height:43px;
+left:50%;
+margin:0 0 0 -454px;
+position:relative;
+width:908px;
+z-index:999;
+}
+#publicity {
+height:358px;
+left:50%;
+margin:0 0 0 -454px;
+position:relative;
+width:908px;
+}
+#pclose {
+height:29px;
+margin:0;
+position:absolute;
+width:68px;
+z-index:0;
+}
+#pclose {
+height:29px;
+margin:0;
+position:absolute;
+width:68px;
+z-index:1;
+}
+#pclose {
+height:29px;
+left:830px;
+margin:0;
+position:absolute;
+top:11px;
+width:68px;
+z-index:1;
+}
+#search {
+height:32px;
+left:747px;
+margin:0;
+position:absolute;
+top:5px;
+width:145px;
+z-index:1;
+}
+.highslide-maincontent {
+z-index:1;
+}
+#lm {
+height:1260px;
+left:50%;
+margin-left:-454px;
+margin-top:-182px;
+position:relative;
+top:0;
+width:262px;
+z-index:0;
+}
+#f {
+height:100px;
+left:50%;
+margin-left:-454px;
+position:relative;
+top:0px;
+width:908px;
+z-index:1;
+}
+.f1 {
+color:#fff;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:10px;
+height:14px;
+left:0;
+margin:0;
+position:absolute;
+text-align:center;
+top:32px;
+width:908px;
+z-index:0;
+}
+.f2 {
+color:#fff;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:10px;
+height:10px;
+left:0;
+margin:0;
+position:absolute;
+text-align:center;
+top:45px;
+width:908px;
+z-index:0;
+}
+.f3 {
+color:#fff;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:10px;
+height:10px;
+margin:0;
+position:absolute;
+text-align:center;
+top:59px;
+width:908px;
+z-index:0;
+}
+#idd {
+height:182px;
+left:50%;
+margin-left:-194px;
+position:relative;
+top:0;
+width:648px;
+z-index:0;
+}
+#ul-implementation {
+background-image:url("images/dp-menu-repeat-bg.png");
+background-repeat:repeat-y;
+height:1250px;
+left:0;
+padding-top:1px;
+position:relative;
+top:0;
+width:264px;
+z-index:-100;
+}
+#ul-implementation-top {
+background-image:url("images/csssprite.png");
+background-position:0 -208px;
+background-repeat:no-repeat;
+height:90px;
+left:0;
+position:relative;
+top:0;
+width:262px;
+z-index:1;
+}
+#ul-implementation-bottom {
+background-image:url("images/csssprite.png");
+background-position:0 -308px;
+height:20px;
+left:0;
+position:relative;
+top:0;
+width:262px;
+z-index:-1;
+}
+.contact-info {
+color:#FFFFFF;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:14px;
+font-weight:bold;
+height:119px;
+left:16px;
+margin:-150px 0 0;
+position:absolute;
+top:100%;
+width:224px;
+z-index:0;
+}
+#vision-mission-link {
+color:#FFFFFF;
+font-family:Helvetica,Arial,sans-serif;
+font-size:15px;
+font-weight:bold;
+height:116px;
+left:17px;
+padding-top:40px;
+position:absolute;
+top:100%;
+width:200px;
+z-index:0;
+}
+#secondary-button-div {
+height:auto;
+margin-left:15px;
+margin-top:50px;
+width:auto;
+z-index:0;
+}
+.dmenu {
+height:28px;
+left:8px;
+margin:0;
+position:relative;
+top:78px;
+width:246px;
+z-index:0;
+}
+#dptag {
+color:#FFFFFF;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:36px;
+font-style:normal;
+font-weight:bold;
+height:46px;
+left:19px;
+margin:0;
+position:absolute;
+top:120px;
+visibility:visible;
+width:602px;
+z-index:0;
+}
+#emergency-tab {
+background-image:url("images/alertbg.png");
+background-position:0 -110px;
+background-repeat:no-repeat;
+height:80px;
+left:50%;
+margin:0 0 0 -512px;
+padding:20px 40px 40px 20px;
+position:relative;
+visibility:visible;
+width:1024px;
+z-index:0;
+}
+#alerticon {
+background-image:url("images/icon-severe-small.gif");
+background-repeat:no-repeat;
+height:54px;
+left:47px;
+margin:0;
+position:absolute;
+top:32px;
+width:57px;
+z-index:0;
+}
+#at1 {
+color:#FFCC66;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:18px;
+font-weight:bold;
+height:62px;
+left:110px;
+margin:0;
+position:absolute;
+top:27px;
+width:125px;
+z-index:0;
+}
+#at2 {
+color:#FFFFFF;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:12px;
+font-weight:normal;
+height:85px;
+left:277px;
+margin:0;
+position:absolute;
+top:36px;
+width:604px;
+z-index:0;
+}
+#dynamic-content-container {
+height:auto;
+left:50%;
+margin:-1089px 0 0 -194px;
+min-height:1200px;
+position:relative;
+top:20px;
+width:648px;
+z-index:0;
+}
+#dynamic-content-bg-top {
+background-image:url("images/index-graphic-top.png");
+background-repeat:no-repeat;
+height:20px;
+left:0;
+margin:0;
+position:relative;
+top:0;
+width:648px;
+z-index:0;
+}
+#dynamic-content-bg-main {
+background-image:url("images/index-graphic-content.png");
+background-repeat:repeat-y;
+height:auto;
+left:0;
+margin:0;
+position:relative;
+top:0;
+width:648px;
+z-index:0;
+}
+#dynamic-content-bg-bottom {
+background-image:url("images/index-graphic-bottom.png");
+background-repeat:no-repeat;
+height:20px;
+left:0;
+margin:0;
+position:relative;
+top:0;
+width:648px;
+z-index:0;
+}
+.post {
+height:auto;
+margin:0;
+padding-bottom:50px;
+padding-left:0;
+padding-top:0;
+position:relative;
+top:0;
+width:460px;
+z-index:0;
+}
+.post-date {
+color:#333333;
+font-family:Arial,Helvetica,sans-serif;
+font-size:10px;
+font-style:normal;
+font-weight:normal;
+height:15px;
+left:0;
+margin:0;
+position:relative;
+top:20px;
+width:300px;
+z-index:0;
+}
+.post-title {
+color:#6699CC;
+font-family:Arial,Helvetica,sans-serif;
+font-size:31px;
+font-style:normal;
+font-weight:bold;
+height:auto;
+margin:0;
+position:relative;
+top:20px;
+width:500px;
+z-index:0;
+}
+.entry {
+color:#333333;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-style:normal;
+font-weight:normal;
+height:auto;
+left:0;
+margin:0;
+position:relative;
+top:15px;
+width:460px;
+z-index:0;
+}
+#department-title-id {
+border-bottom:thin dotted #003366;
+color:#003366;
+font-family:'Droid Sans',arial,sans-serif;
+font-size:36px;
+font-style:normal;
+font-weight:normal;
+height:42px;
+left:20px;
+margin:0;
+position:relative;
+text-shadow:0.1em 0.1em 0.2em #BBBBBB;
+top:0;
+width:600px;
+z-index:0;
+}
+#post-cat {
+color:#000000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:10px;
+font-style:normal;
+font-weight:normal;
+height:20px;
+margin:0;
+position:relative;
+top:20px;
+width:400px;
+z-index:0;
+}
+.read-more-entry {
+	color: #0A2756;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: auto;
+	left: 0;
+	margin: 0;
+	position: relative;
+	top: 0;
+	width: 460px;
+	z-index: 0;
+}
+
+.single-entry {
+color:#333333;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+font-style:normal;
+font-weight:normal;
+height:auto;
+left:0;
+margin:0;
+position:relative;
+top: 20px;
+width:460px;
+z-index:0;
+}
+.single-title {
+	color:#CC0033;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	height:auto;
+	left:8px;
+	margin:0;
+	padding:10px;
+	padding-left:0px;
+	padding-bottom:35px;
+	overflow:hidden;
+	position:relative;
+	top:25px;
+	width:460px;
+	z-index:0;
+}
+
+#drpadilla-single {
+	color:#FF6600;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#sub-site-container {
+height: auto;
+left:50%;
+margin:0 0 0 -454px;
+position:relative;
+width:908px;
+z-index:0;
+}
+#weiter-top {
+	background-image:url("http://sa.utep.edu/housing/files/2010/11/bg-top.png");
+	background-repeat:no-repeat;
+	height:221px;
+	left:0;
+	margin:0;
+	position:absolute;
+	top:-9px;
+	width:909px;
+	z-index:0;
+}
+#weiter-body {
+	background-image:url("http://sa.utep.edu/housing/files/2010/11/bg-content.png");
+	background-repeat:repeat-y;
+	height:auto;
+	min-height: 600px;
+	left:0;
+	margin:0;
+	position:relative;
+	top:6px;
+	width:909px;
+	z-index:0;
+	font-family:Helvetica,Arial,sans-serif;
+}
+#weiter-bottom {
+	background-image:url("http://sa.utep.edu/housing/files/2010/11/bg-bottom.png");
+	background-repeat:no-repeat;
+	height:46px;
+	left:50%;
+	margin:0 0 0 -454px;
+	position:relative;
+	top:0px;
+	width:909px;
+	z-index:0;
+}
+#comment-styling {
+color:#FF6600;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+margin-top:50px;
+}
+#nacontent-body {
+height:610px;
+left:50%;
+margin:0 0 0 -454px;
+position:relative;
+width:908px;
+z-index:0;
+}
+#nacontent {
+margin-left:50px;
+}
+#nacontent-title {
+color:#FFFFFF;
+font-family:Arial,Helvetica,sans-serif;
+font-size:40px;
+font-weight:bold;
+height:auto;
+left:0;
+overflow:hidden;
+position:relative;
+text-shadow:2px 2px 2px #000000;
+top:0;
+width:auto;
+z-index:0;
+}
+#nacontent-entry {
+color:#FFFFFF;
+font-family:Arial,Helvetica,sans-serif;
+font-size:12px;
+font-weight:bold;
+height:auto;
+left:0;
+margin-top:-50px;
+overflow:hidden;
+position:relative;
+text-shadow:1px 1px 1px #000000;
+top:0;
+width:600px;
+z-index:0;
+}
+#nacontent-top {
+background-image:url("images/top.png");
+background-repeat:no-repeat;
+height:16px;
+left:0;
+margin:0;
+position:relative;
+top:1px;
+width:908px;
+z-index:0;
+}
+#nacontent-body {
+background-image:url("images/nacontentbg.png");
+left:50%;
+margin-left:-454px;
+position:relative;
+top:0;
+width:908px;
+z-index:0;
+}
+#nacontent-bottom {
+background-image:url("images/bottom.png");
+background-repeat:no-repeat;
+height:16px;
+left:50%;
+margin:0 0 0 -454px;
+position:relative;
+top:-1px;
+width:908px;
+z-index:0;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+
+#access .menu-header, div.menu, #colophon, #branding, #main, #wrapper {
+font-family:Arial,Helvetica,sans-serif;
+margin-top:0px;
+width:908px;
+}
+
+#access {
+background-image:url("images/csssprite.png");
+background-position:0 -154px;
+display:block;
+height:45px;
+/*left:50%;*/
+margin:0 auto;
+width:908px;
+}
+#access .menu-header, div.menu {
+font-size:12px;
+margin-left:20px;
+}
+#access .menu-header ul, div.menu ul {
+list-style:none outside none;
+margin:0px;
+}
+#access .menu-header li, div.menu li {
+float:left;
+position:relative;
+top:3px;
+}
+#access a {
+color:#FFFFFF;
+display:block;
+height:35px;
+line-height:33px;
+padding:0 10px;
+text-decoration:none;
+}
+#access ul ul {
+-box-shadow: 0px 8px 8px rgba(0,0,0,0.7);
+-moz-box-shadow: 0px 8px 8px rgba(0,0,0,0.7);
+-webkit-box-shadow: 0px 8px 8px rgba(0,0,0,0.7);
+display:none;
+left:0;
+padding-left:0;
+position:absolute;
+top:30px;
+width:180px;
+z-index:99999;
+}
+#access ul ul li {
+min-width:180px;
+}
+#access ul ul ul {
+left:100%;
+top:0;
+}
+#access ul ul a {
+background:none repeat scroll 0 0 #FFFFFF;
+color:#333333;
+height:auto;
+line-height:1em;
+padding:10px;
+width:160px;
+}
+#access li:hover > a, #access ul ul :hover > a {
+background:none repeat scroll 0 0 #FFFFFF;
+color:#FF6633;
+}
+#access ul li:hover > ul {
+display:block;
+}
+#access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {
+color:#FF6633;
+}
+* html #access ul li.current_page_item a, * html #access ul li.current-menu-ancestor a, * html #access ul li.current-menu-item a, * html #access ul li.current-menu-parent a, * html #access ul li a:hover {
+color:#FF6633;
+}
+
+div#social-networks-twitter {
+	position:absolute; 
+	margin:0; 
+	padding:0px;  
+	left:415px; 
+	top: -2px;
+}
+div#social-networks-facebook {
+	position:absolute; 
+	margin:0; 
+	padding:0px;  
+	left:403px; 
+	top: 0px;
+}
+
+#thumbnail-static-content-page {
+	position:absolute; 
+	margin:0;
+	left: 494px; 
+	padding:0px; 
+	top: 21px; 
+	width: 181px; 
+	border: 1px solid #fff;	
+}
+
+#FAQ-right-menu {
+	color: #fff; 
+	font-size:14px;	
+}
+
+#FAQ-right-menu li {
+	padding: 5px;
+	font-weight: bold;
+	margin-left:-25px;
+}
+
+#FAQ-right-menu li ul li {
+	font-weight: normal;
+}
