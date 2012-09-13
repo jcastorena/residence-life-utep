@@ -3,7 +3,7 @@
 <?php get_template_part( 'dptag' ); ?>
 <?php get_sidebar(); ?>
 
-
+<!--Hola prueba de Github -->
 
 <div id="dynamic-content-container">
   <div id="dynamic-content-bg-top"></div>
